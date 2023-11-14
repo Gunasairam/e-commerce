@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wishlist</title>
+    <link rel="stylesheet" href="wishlist.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+     <!-- Header -->
+     <header>
+        <div class="head-container">
+            <!-- logo -->
+            <h1><a href="./main.html"><span>S</span>hoppers <span>C</span>hoice</a></h1>
+           
+            <!-- profile/wishlist/bag -->
+            <div class="profile-section">
+                <div class="head-top-right" id="profile-container">
+                    <!-- profile button on top right nav bar -->
+                    <button id="profile-btn">
+                        <i class="fa-regular fa-user"></i>
+                        <p>profile</p>
+                    </button>
+                
+                    <!-- profile container which displays when hovered on profile button -->
+                    <div class="aside-container">
+                        <p class="welcome">welcome</p>
+                        <p>to access account and manage orders</p>
+                        <button id="login-signup">login/signup</button>
+                        <hr>
+                        <ul>
+                            <li><a href="">orders</a></li>
+                            <li><a href="wishlist.html">wishlist</a></li>
+                            <li><a href="">contact us</a></li>
+                            <li><a href="">saved adressess</a></li>
+                            <li><a href="login.html">logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                    <!-- whish list button on top right -->
+                    <div class="head-top-right">
+                        <button id="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>wishlist</p>
+                        </button> 
+                    </div>
+                    <!-- cart button which navigates to the cart list -->
+                    <div class="head-top-right">
+                        <button id="cart-btn">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <p>bag</p>
+                        </button>
+                        <small class="cart-number"></small>
+                    </div>
+
+                
+
+            </div>
+
+        </div>
+    </header>
+    <!-- header section completed -->
+    <main>
+        <div id="parentcontainer">
+            <div id="clearbtn">
+
+            </div>
+            <button id="back-page"><i class="fa-solid fa-arrow-left"></i> back</button>
+        </div>
+        <h1 class="wishlogo"> whishlist</h1>
+        <div id="container">
+                
+            <!-- dynamic product cards adding from js using dom -->
+        </div>
+        <div class="back-to-top">
+            <a href="#"><i class="fa-solid fa-angle-up up-arrow-icon"></i></a>
+        </div>
+        
+    </main>
+    <script src="wishlist.js"></script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product details</title>
+    <link rel="stylesheet" href="seemore.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+</head>
+<body>
+     <!-- Header -->
+     <header>
+        <div class="head-container">
+            <!-- logo -->
+            <h1><a href="/main.html"><span>S</span>hoppers <span>C</span>hoice</a></h1>
+            <!-- nav-links secetion -->
+            <div class="cat-btns">
+            <button class="categories-btn border1" id="all-products">all products</button>
+            <button class="categories-btn border2" id="mens">mens</buttton>
+            <button class="categories-btn border3" id="womens">womens</button>
+            <button class="categories-btn border4" id="electronics">electronics</button>
+            <button class="categories-btn border5" id="jewelery">jewelery</button>
+            </div>
+
+            <!-- search bar section -->
+            <div class="search-bar">
+                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="search" name="" id="" class="search-box" placeholder="search for products, brands and more">
+            </div>
+
+            <!-- profile/wishlist/bag -->
+            <div class="profile-section">
+                <div class="head-top-right" id="profile-container">
+                    <!-- profile button on top right nav bar -->
+                    <button id="profile-btn">
+                        <i class="fa-regular fa-user"></i>
+                        <p>profile</p>
+                    </button>
+                
+                    <!-- profile container which displays when hovered on profile button -->
+                    <div class="aside-container">
+                        <p class="welcome">welcome</p>
+                        <p>to access account and manage orders</p>
+                        <button id="login-signup">login/signup</button>
+                        <hr>
+                        <ul>
+                            <li><a href="">orders</a></li>
+                            <li><a href="wishlist.html">wishlist</a></li>
+                            <li><a href="">contact us</a></li>
+                            <li><a href="">saved adressess</a></li>
+                            <li><a href="login.html">logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                    <!-- whish list button on top right -->
+                    <div class="head-top-right">
+                        <button id="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>wishlist</p>
+                        </button> 
+                    </div>
+                    <!-- cart button which navigates to the cart list -->
+                    <div class="head-top-right">
+                        <button id="cart-btn">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <p>bag</p>
+                        </button>
+                        <small class="cart-number"></small>
+                    </div>
+
+                
+
+            </div>
+
+        </div>
+    </header>
+    <!-- header section completed -->
+
+    <!-- main section starts here code is in js file dynamically -->
+    <main>
+        <button id="back-page"><i class="fa-solid fa-arrow-left"></i> back</button>
+        <div id="container1">
+            <div id="product-img-card"></div>
+            <div id="p-individual-container">
+ <!-- dynamic product cards adding from js using dom -->
+            </div>
+        </div>
+
+        <!-- back to top icon used to get top of the page 
+        <div class="back-to-top">
+            <a href="#"><i class="fa-solid fa-angle-up up-arrow-icon"></i></a>
+        </div> -->
+
+    </main>
+
+    <footer>
+        <div class="foot-container">
+
+            <div class="fc1">
+                <div class="childfootcontainers">
+                    <h4>customer</h4>
+                    
+                    <ul>
+                        <li><a href="">Help/faqs</a></li>
+                        <li><a href="">track order</a></li>
+                        <li><a href="">size guide</a></li>
+                        <li><a href="">buying guide</a></li>
+                        <li><a href="">how do i shop</a></li>
+                        <li><a href="">how do i pay</a></li>
+                        <li><a href="">style hub</a></li>
+                    </ul>
+                </div>
+                <div class="childfootcontainers">
+                    <h4>stores and sites</h4>
+                    
+                    <ul>
+                        <li><a href="">about us</a></li>
+                        <li><a href="">contact us</a></li>
+                        <li><a href="">corporate site</a></li>
+                        <li><a href="">STORE LOCATOR</a></li>
+                        <li><a href="">CAREERS</a></li>
+                        <li><a href="">SITEMAP</a></li>
+                    </ul>
+                </div>
+                <div class="childfootcontainers">
+                    <h4>stores and sites</h4>
+                    
+                    <ul>
+                        <li><a href="">POLICIES</a></li>
+                        <li><a href="">TERMS OF USE</a></li>
+                        <li><a href="">PRIVACY</a></li>
+                        <li><a href="">DELIVERY POLICY</a></li>
+                        <li><a href="">EXCHANGES & RETURNS</a></li>
+                    </ul>
+                </div>
+                <div class="childfootcontainers">
+                    <h4>DELIGHTFUL PROGRAMS</h4>
+                    
+                    <ul>
+                        <li><a href="">INSTANT GIFTING</a></li>
+                        <li><a href="">EXPRESS STORE PICK UP</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="fc2">
+                <div class="text">
+                    <p>100% secure payment</p>
+                </div>
+                <img src="/assets/payments-logo.svg" alt="">
+                <div class="guarantee">
+                    <img src="./assets/Original-Stamp-PNG-Image.png" alt="">
+                </div>
+                <div class="guranteeText">
+                    <p>100% ORIGINAL guarantee for <br> all products at shopperschoice.com</p>
+                </div>
+                <div class="return">
+                    <img src="/assets/return-order.png" alt="">
+                </div>
+                <div class="returnText">
+                    <p>return within 14days of <br> receiving your order</p>
+                </div>
+                <div class="socialLinks">
+                    <p>Get in touch</p>
+                        <div class="s-links">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- back to top icon used to get top of the page  -->
+        <div class="back-to-top">
+            <a href="#"><i class="fa-solid fa-angle-up up-arrow-icon"></i></a>
+        </div>
+    </footer>
+
+<script src="seemore.js"></script>
+<!-- bootstrap js -->
+
+</body>
+</html>

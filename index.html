@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup-page shoppers choice</title>
+    <link rel="stylesheet" href="loginregister.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+<!--outer container 1  -->
+    <div class="container">
+        <!-- child container -->
+        <div class="container2" class="signup-page">
+            <!-- logo on top -->
+            <h2 class="logo">signup</h2>
+            <!-- form inputs -->
+            <form action="">
+                <input type="text" placeholder="username  (min 6 characters length)" id="username" autocomplete="off"> <br>
+                <!-- <small>password must be a combination of atleast one captial letter, small letters, @, digits</small> <br> -->
+                <input type="password" placeholder="password" id="password" class="passwordd" autocomplete="off"> <br>
+                <input type="password" placeholder="confirmpassword"  id="password1" autocomplete="off"> 
+                <button type="submit" class="submit">register</button>
+                <p>Already have an account? <a href="login.html">login</a></p>
+            </form>
+
+            <div class="line">
+                <hr> <p>or</p> <hr>
+            </div>
+            <!-- google/facebook buttons -->
+            <button class="facebook"><i class="fa-brands fa-facebook"></i> login with facebook</button>
+            <button class="google"><i class="fa-brands fa-google"></i> login with Google</button>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

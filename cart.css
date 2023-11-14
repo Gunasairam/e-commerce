@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Baloo+Thambi+2&family=Caveat&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Lexend&family=Lora:ital@1&family=Montserrat:wght@300;400&family=Newsreader:opsz@6..72&family=Oxygen&family=Phudu&family=Playfair+Display&family=Poppins&family=Raleway&family=Roboto:wght@300&family=Rubik&family=Titillium+Web:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins';
+  color: #222;
+}
+#cartpage{
+    margin-top: 100rem;
+}
+.container3{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.container3>h1{
+    font-family: 'caveat';
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 400;
+}
+.clr-btn{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1.5px solid;
+    background-color: #FF4F00;
+    color: #fff;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.img{
+    float: right;
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    text-transform: uppercase;
+}
+.img img{
+    width: 2rem;
+}
+.cart-eachProduct-card{
+    width: 60%;
+    height: 14rem;
+    /* background: #000; */
+    border: 2px solid rgb(154, 151, 151);
+    margin: 0 auto;
+    padding: 1rem;
+    padding-right: 2.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+}   
+
+.cart-image-container{
+    width: 20%;
+    object-fit: cover;
+    object-position: center;
+}
+.cart-image-container img{
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    width: 60%;
+    float: left;
+    object-fit: cover;
+    overflow: hidden;
+}
+.product-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 10rem;
+
+}
+.product-description{
+    font-size: 0.8rem;
+    margin-left: 10rem;
+    color: #474646;
+}
+.product-price{
+    font-size: 2rem;
+    margin-left: 10rem;
+}
+.return-policy{
+    margin-left: 10rem;
+    font-size: 0.7rem;
+}
+.return-policy span{
+    font-weight: 1000;
+}
+.del-btn{
+    font-size: 2rem;
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+}
+.del-btn i{
+    color: #6d6d6d;
+    transition: all 0.3s ease-in-out;
+}
+.del-btn i:hover{
+    color: #222;
+}
+.del-btn i:active{
+    color: red;
+}
